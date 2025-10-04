@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqluba - Authentic Lebanese & Palestinian Flavors | Bay Ridge, NYC</title>
+    <meta name="description" content="Family-run Lebanese-Palestinian kitchen in Bay Ridge, NYC. Spices direct from Palestine, recipes from Lebanon & beyond.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">MAQLUBA</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-pattern"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Maqluba</h1>
+            <p class="hero-subtitle">Authentic Lebanese & Palestinian Flavors</p>
+            <p class="hero-text">Spices Direct from Palestine, Recipes from Lebanon & Beyond.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#reservations" class="btn btn-secondary">Reservations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.47 (1).jpeg" alt="Delicious Muskhan">
+                    <div class="image-pattern"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Us</h2>
+                    <div class="title-accent"></div>
+                    <p>Maqluba is a family-run Lebanese-Palestinian kitchen in Bay Ridge, NYC. We import our spices straight from Palestine and blend them with time-honored Lebanese recipes from Lebanon to bring you bold, authentic flavors.</p>
+                    <p>As a small business, we pride ourselves on warm hospitality and a menu that celebrates our shared heritage.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">◈</div>
+                            <h3>Authentic Spices</h3>
+                            <p>Direct from Palestine</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">◆</div>
+                            <h3>Traditional Recipes</h3>
+                            <p>Passed down generations</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">★</div>
+                            <h3>Family-Run</h3>
+                            <p>Warm hospitality</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Signature Dishes</h2>
+            <div class="title-accent"></div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.46.jpeg" alt="Mansaf">
+                    <div class="gallery-overlay">
+                        <h3>Mansaf</h3>
+                        <p>Traditional lamb with fermented yogurt</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.53.jpeg" alt="Lamb Chops">
+                    <div class="gallery-overlay">
+                        <h3>Grilled Lamb Chops</h3>
+                        <p>Juicy and perfectly seasoned</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.49.jpeg" alt="Kabsa">
+                    <div class="gallery-overlay">
+                        <h3>Kabsa</h3>
+                        <p>Spiced rice with tender chicken</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.52.jpeg" alt="Muskhan">
+                    <div class="gallery-overlay">
+                        <h3>Muskhan</h3>
+                        <p>Chicken with sumac and almonds</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.45 (1).jpeg" alt="Grilled Chicken">
+                    <div class="gallery-overlay">
+                        <h3>Rotisserie Chicken</h3>
+                        <p>Slow-roasted perfection</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.47.jpeg" alt="Shawarma">
+                    <div class="gallery-overlay">
+                        <h3>Shawarma</h3>
+                        <p>Fresh and flavorful</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="title-accent"></div>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="traditional">Traditional Dishes</button>
+                <button class="category-btn" data-category="grill">Mashewy on the Grill</button>
+                <button class="category-btn" data-category="shawarma">Shawarma Boxes</button>
+                <button class="category-btn" data-category="hot-appetizers">Hot Appetizers</button>
+                <button class="category-btn" data-category="cold-appetizers">Cold Appetizers</button>
+                <button class="category-btn" data-category="oven">From the Oven</button>
+                <button class="category-btn" data-category="salads">Salads</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="beverages">Beverages</button>
+            </div>
+
+            <!-- Traditional Dishes -->
+            <div class="menu-category active" data-category="traditional">
+                <h3 class="category-title">Traditional Dishes</h3>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Maqluba Chicken</h4>
+                        <span class="price">$180</span>
+                    </div>
+                    <p class="menu-description">Upside-down 6 layers of chicken, carrot, potato, cauliflower, eggplant and rice.</p>
+                    <span class="servings">Serves 8-10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Maqluba Lamb</h4>
+                        <span class="price">$250</span>
+                    </div>
+                    <p class="menu-description">Upside-down 6 layers of lamb, carrot, potato, cauliflower, eggplant and rice.</p>
+                    <span class="servings">Serves 8-10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Maqluba Vegan</h4>
+                        <span class="price">$180</span>
+                    </div>
+                    <p class="menu-description">Upside down 4 layers of carrot, potato, cauliflower, eggplant and rice.</p>
+                    <span class="servings">Serves 8-10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Maqluba Shrimp</h4>
+                        <span class="price">$180</span>
+                    </div>
+                    <p class="menu-description">Upside-down rice dish with shrimp.</p>
+                    <span class="servings">Serves 8-10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Mansaf</h4>
+                        <span class="price">$190</span>
+                    </div>
+                    <p class="menu-description">Stew of bone in lamb and fermented yogurt sauce served over saji bread and rice, topped with almonds.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Muskhan</h4>
+                        <span class="price">$160</span>
+                    </div>
+                    <p class="menu-description">Fresh taboon bread with sautéed onion, sumac, almonds and half a chicken.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Ouzi Lamb</h4>
+                        <span class="price">$180</span>
+                    </div>
+                    <p class="menu-description">Slow-cooked lamb served with vegetables and rice.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Ouzi Chicken</h4>
+                        <span class="price">$160</span>
+                    </div>
+                    <p class="menu-description">Baked chicken served with vegetables and rice.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Zahir be Laban</h4>
+                        <span class="price">$120</span>
+                    </div>
+                    <p class="menu-description">Stew of bone in lamb and fermented yogurt sauce, cauliflower, served with rice.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Kabsa Chicken</h4>
+                        <span class="price">$140</span>
+                    </div>
+                    <p class="menu-description">Spiced rice with chicken and vegetables.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Kabsa Lamb</h4>
+                        <span class="price">$160</span>
+                    </div>
+                    <p class="menu-description">Spiced rice with lamb and vegetables.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Kofta Tomato</h4>
+                        <span class="price">$80</span>
+                    </div>
+                    <p class="menu-description">Kofta kabab baked with tomato sauce, and potato served with rice.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Kofta Tahini</h4>
+                        <span class="price">$80</span>
+                    </div>
+                    <p class="menu-description">Kofta kabab baked with potato in creamy tahini sauce and served with rice.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Bamia</h4>
+                        <span class="price">$85</span>
+                    </div>
+                    <p class="menu-description">Okra stew served with meat and rice.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Fatta Chicken</h4>
+                        <span class="price">$95</span>
+                    </div>
+                    <p class="menu-description">Layers of crispy bread, rice, chicken shawarma, yogurt, chickpeas, garlic sauce, topped with almond.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Fatta Lahmeh</h4>
+                        <span class="price">$110</span>
+                    </div>
+                    <p class="menu-description">Layers of crispy bread rice, meat shawarma, tahini sauce.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Fatta Hummus</h4>
+                        <span class="price">$85</span>
+                    </div>
+                    <p class="menu-description">Layers of crispy bread, chickpeas, garlic, tahini and yogurt, topped with almonds.</p>
+                    <span class="servings">Serves 6 persons</span>
+                </div>
+            </div>
+
+            <!-- Mashewy on the Grill -->
+            <div class="menu-category" data-category="grill">
+                <h3 class="category-title">Mashewy on the Grill</h3>
+                <p class="category-note">All dishes served with rice, hummus, baba ghanoush and salad.</p>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Beef Kebab (Filet Mignon)</h4>
+                        <span class="price">$160</span>
+                    </div>
+                    <p class="menu-description">Tender chunks of beef marinated in spices and herbs.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Chicken Kebab</h4>
+                        <span class="price">$140</span>
+                    </div>
+                    <p class="menu-description">Tender chunks of chicken marinated in spices and herbs.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Meat Kofta</h4>
+                        <span class="price">$160</span>
+                    </div>
+                    <p class="menu-description">Ground meat blended with parsley, onion and spice.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Lamb Chops</h4>
+                        <span class="price">$200</span>
+                    </div>
+                    <p class="menu-description">Juicy grilled lamb chops.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Rotisserie Chicken</h4>
+                        <span class="price">$160</span>
+                    </div>
+                    <p class="menu-description">Whole chicken slowly roasted.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Salmon</h4>
+                        <span class="price">$200</span>
+                    </div>
+                    <p class="menu-description">Grilled seasoned salmon fillets.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Shrimp</h4>
+                        <span class="price">$200</span>
+                    </div>
+                    <p class="menu-description">Charcoal-grilled seasoned shrimp skewers.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Mixed Grill</h4>
+                        <span class="price">$230</span>
+                    </div>
+                    <p class="menu-description">Assorted kebabs and meats.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+            </div>
+
+            <!-- Shawarma Boxes -->
+            <div class="menu-category" data-category="shawarma">
+                <h3 class="category-title">Shawarma Boxes</h3>
+                <p class="category-note">All Shawarma boxes are served with fries, garlic and tahini sauce, and pickles.</p>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Mixed Shawarma Box (Large)</h4>
+                        <span class="price">$130</span>
+                    </div>
+                    <p class="menu-description">Mix of chicken and meat shawarma pressed cut sandwich with sauce.</p>
+                    <span class="servings">Serves 10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Large Arabia Chicken Shawarma</h4>
+                        <span class="price">$120</span>
+                    </div>
+                    <p class="menu-description">Pressed cut sandwich served with sauce.</p>
+                    <span class="servings">Serves 10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Large Arabia Meat Shawarma</h4>
+                        <span class="price">$140</span>
+                    </div>
+                    <p class="menu-description">Meat shawarma, pressed cut sandwich served with sauce.</p>
+                    <span class="servings">Serves 10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Large Arabi Falafel</h4>
+                        <span class="price">$100</span>
+                    </div>
+                    <p class="menu-description">Pressed cut sandwich served with sauce, fries, pickles, hummus and arabic salad.</p>
+                    <span class="servings">Serves 10 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Small Mixed Shawarma</h4>
+                        <span class="price">$65</span>
+                    </div>
+                    <p class="menu-description">Mix of chicken and meat shawarma pressed cut sandwich with sauce.</p>
+                    <span class="servings">Serves 5 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Small Arabia Chicken</h4>
+                        <span class="price">$60</span>
+                    </div>
+                    <p class="menu-description">Small chicken shawarma, pressed cut sandwich served with sauce.</p>
+                    <span class="servings">Serves 5 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Small Arabia Meat</h4>
+                        <span class="price">$70</span>
+                    </div>
+                    <p class="menu-description">Small meat shawarma, pressed cut sandwich served with sauce.</p>
+                    <span class="servings">Serves 5 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Small Arabi Falafel</h4>
+                        <span class="price">$50</span>
+                    </div>
+                    <p class="menu-description">Pressed cut sandwich served with sauce, fries, pickles, hummus and arabic salad.</p>
+                    <span class="servings">Serves 5 persons</span>
+                </div>
+            </div>
+
+            <!-- Hot Appetizers -->
+            <div class="menu-category" data-category="hot-appetizers">
+                <h3 class="category-title">Hot Appetizers</h3>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Feta Cheese Roll</h4>
+                        <span class="price">$8</span>
+                    </div>
+                    <p class="menu-description">Pastry rolls filled with feta cheese.</p>
+                    <span class="servings">3 pieces</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Falafel</h4>
+                        <span class="price">$6</span>
+                    </div>
+                    <p class="menu-description">Fried chickpea patties with herbs.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Fried Zahir</h4>
+                        <span class="price">$40</span>
+                    </div>
+                    <p class="menu-description">Cauliflower, tahini, green chili sauce and pomegranate molasses.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Fried Beitenjan</h4>
+                        <span class="price">$40</span>
+                    </div>
+                    <p class="menu-description">Eggplant, tahini, green chili sauce and pomegranate molasses.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Kibbeh</h4>
+                        <span class="price">$10</span>
+                    </div>
+                    <p class="menu-description">Fried bulgur stuffed with meat.</p>
+                    <span class="servings">3 pieces</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Stuffed Kosa</h4>
+                        <span class="price">$10</span>
+                    </div>
+                    <p class="menu-description">Zucchini stuffed with rice and vegetables.</p>
+                    <span class="servings">3 pieces</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Sambosk Lahmeh</h4>
+                        <span class="price">$7</span>
+                    </div>
+                    <p class="menu-description">Homemade dough, butter, milk, meat, onion and spices.</p>
+                    <span class="servings">3 pieces</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Warak Enab</h4>
+                        <span class="price">$12</span>
+                    </div>
+                    <p class="menu-description">Grape leaves stuffed with rice, vegetables and herbs.</p>
+                    <span class="servings">8 pieces</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Majadara</h4>
+                        <span class="price">$40</span>
+                    </div>
+                    <p class="menu-description">Lentils with rice and caramelized onions.</p>
+                    <span class="servings">Serves 8 persons</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Muskhan Baby Roll</h4>
+                        <span class="price">$12</span>
+                    </div>
+                    <p class="menu-description">Saji bread with sautéed onion, sumac, almonds and chicken.</p>
+                    <span class="servings">4 pieces</span>
+                </div>
+            </div>
+
+            <!-- Cold Appetizers -->
+            <div class="menu-category" data-category="cold-appetizers">
+                <h3 class="category-title">Cold Appetizers</h3>
+                <p class="category-note">Serves 4 persons each</p>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Babaganoush</h4>
+                        <span class="price">$25</span>
+                    </div>
+                    <p class="menu-description">Roasted eggplant with tahini sauce, olive oil, and lemon juice.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Hummus</h4>
+                        <span class="price">$25</span>
+                    </div>
+                    <p class="menu-description">Freshly cooked chickpeas, blended with olive oil, tahini, and lemon juice.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Labneh</h4>
+                        <span class="price">$25</span>
+                    </div>
+                    <p class="menu-description">Whipped yogurt paste topped with olive oil.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Muhammara</h4>
+                        <span class="price">$30</span>
+                    </div>
+                    <p class="menu-description">Roasted sweet red pepper blended with walnut, breadcrumb, onion, and pomegranate molasses.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Khyar Ma Laban</h4>
+                        <span class="price">$25</span>
+                    </div>
+                    <p class="menu-description">Yogurt with cucumber and mint.</p>
+                </div>
+            </div>
+
+            <!-- From the Oven -->
+            <div class="menu-category" data-category="oven">
+                <h3 class="category-title">From the Oven</h3>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Meat Pie</h4>
+                        <span class="price">$4</span>
+                    </div>
+                    <p class="menu-description">Small pie stuffed with seasoned meat.</p>
+                    <span class="servings">1 piece</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Spinach Pie</h4>
+                        <span class="price">$4</span>
+                    </div>
+                    <p class="menu-description">Pastry filled with spinach and onion.</p>
+                    <span class="servings">1 piece</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Cheese Manakish</h4>
+                        <span class="price">$10</span>
+                    </div>
+                    <p class="menu-description">Flatbread topped with cheese.</p>
+                    <span class="servings">1 piece</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Zaatar Manakish</h4>
+                        <span class="price">$9</span>
+                    </div>
+                    <p class="menu-description">Flatbread topped with thyme and sesame mix.</p>
+                    <span class="servings">1 piece</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Manakish Cocktail</h4>
+                        <span class="price">$10</span>
+                    </div>
+                    <p class="menu-description">Half zaatar, half cheese flatbread.</p>
+                    <span class="servings">1 piece</span>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Chicken Shawarma Pizza</h4>
+                        <span class="price">$15</span>
+                    </div>
+                    <p class="menu-description">Pizza topped with chicken shawarma.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Meat Shawarma Pizza</h4>
+                        <span class="price">$17</span>
+                    </div>
+                    <p class="menu-description">Pizza topped with beef shawarma.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Musakhan Pizza</h4>
+                        <span class="price">$15</span>
+                    </div>
+                    <p class="menu-description">Pizza topped with chicken, onions, and sumac.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Lahmeh Beajen</h4>
+                        <span class="price">$10</span>
+                    </div>
+                    <p class="menu-description">Ground meat, onion, and tomato on flatbread.</p>
+                </div>
+            </div>
+
+            <!-- Salads -->
+            <div class="menu-category" data-category="salads">
+                <h3 class="category-title">Salads</h3>
+                <p class="category-note">Serves 6-8 persons</p>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Fattoush</h4>
+                        <span class="price">$60</span>
+                    </div>
+                    <p class="menu-description">Finely chopped romaine lettuce, red radish, cucumber, tomato, & mint, with dressing and pita chips.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Tabbouleh</h4>
+                        <span class="price">$60</span>
+                    </div>
+                    <p class="menu-description">Parsley, bulgur, tomato, and lemon salad.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Salata Tahini</h4>
+                        <span class="price">$60</span>
+                    </div>
+                    <p class="menu-description">Creamy tahini salad with cucumber, tomato, and herbs.</p>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" data-category="desserts">
+                <h3 class="category-title">Desserts</h3>
+                <p class="category-note">Individual portions</p>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Basbousa</h4>
+                        <span class="price">$6</span>
+                    </div>
+                    <p class="menu-description">Sweet semolina cake soaked in syrup.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Kunafa</h4>
+                        <span class="price">$12</span>
+                    </div>
+                    <p class="menu-description">Crispy shredded pastry with cheese and syrup.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Rice Pudding</h4>
+                        <span class="price">$5</span>
+                    </div>
+                    <p class="menu-description">Creamy rice pudding with milk.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Custard</h4>
+                        <span class="price">$5</span>
+                    </div>
+                    <p class="menu-description">Creamy, vanilla custard dessert.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Baklava</h4>
+                        <span class="price">$7</span>
+                    </div>
+                    <p class="menu-description">Flaky pastry layered with nuts and honey.</p>
+                    <span class="servings">4 pieces</span>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category" data-category="beverages">
+                <h3 class="category-title">Beverages</h3>
+                
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Ayran</h4>
+                        <span class="price">$4</span>
+                    </div>
+                    <p class="menu-description">Refreshing yogurt-based drink.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Laziza</h4>
+                        <span class="price">$4</span>
+                    </div>
+                    <p class="menu-description">Non-alcoholic malt beverage.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Freeze</h4>
+                        <span class="price">$4</span>
+                    </div>
+                    <p class="menu-description">Sparkling fruit-flavored drink.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Soft Drink</h4>
+                        <span class="price">$2</span>
+                    </div>
+                    <p class="menu-description">Selection of sodas.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Mint Lemonade</h4>
+                        <span class="price">$7</span>
+                    </div>
+                    <p class="menu-description">Fresh lemonade with mint.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-header">
+                        <h4>Water</h4>
+                        <span class="price">$2</span>
+                    </div>
+                    <p class="menu-description">Bottled still water.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservations" class="reservations">
+        <div class="container">
+            <div class="reservations-content">
+                <div class="reservations-text">
+                    <h2 class="section-title">Reserve a Table</h2>
+                    <div class="title-accent"></div>
+                    <p class="lead">Experience the authentic flavors of Lebanon and Palestine</p>
+                    <p>To reserve a table, please call us directly. We look forward to welcoming you!</p>
+                    <a href="tel:9296693897" class="btn btn-primary btn-large">
+                        <span class="btn-icon">☎</span>
+                        Call to Reserve: (929) 669-3897
+                    </a>
+                </div>
+                <div class="reservations-image">
+                    <img src="images/WhatsApp Image 2025-09-24 at 17.35.45.jpeg" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact & Find Us</h2>
+            <div class="title-accent"></div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">▲</div>
+                    <h3>Address</h3>
+                    <p>7025 3rd Ave<br>Brooklyn, NY 11209</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">☎</div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:9296693897">(929) 669-3897</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">◷</div>
+                    <h3>Hours</h3>
+                    <p>Monday – Sunday<br>10:00 AM – 11:00 PM</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">◉</div>
+                    <h3>Social Media</h3>
+                    <p>
+                        <a href="https://instagram.com/maqlubabayridge" target="_blank">@maqlubabayridge</a><br>
+                        <a href="https://tiktok.com/@maqluba5" target="_blank">@maqluba5</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="website-link">
+                <p>Visit us at: <a href="https://maqlubarestaurant.com" target="_blank">maqlubarestaurant.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-pattern"></div>
+            <div class="footer-content">
+                <div class="footer-logo">MAQLUBA</div>
+                <p class="footer-tagline">Authentic Lebanese & Palestinian Flavors</p>
+                <p class="footer-text">Spices Direct from Palestine • Recipes from Lebanon & Beyond</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/maqlubabayridge" target="_blank">Instagram</a>
+                    <a href="https://tiktok.com/@maqluba5" target="_blank">TikTok</a>
+                </div>
+                <p class="footer-copyright">&copy; 2025 Maqluba Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
